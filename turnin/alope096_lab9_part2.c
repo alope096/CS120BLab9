@@ -6,6 +6,7 @@
  *
  *	I acknowledge all content contained herein, excluding template or example
  *	code, is my own original work.
+ * Demo Link: https://drive.google.com/drive/folders/1CgwR2gvNUYymDPUC98qPOQr6-UoJOLAX?usp=sharing
  */
 #include <avr/io.h>
 #ifdef _SIMULATE_
@@ -14,7 +15,7 @@
 
 #include "timer.h"
 
-//we will be using PA0, PA1, PA2,PA3
+//we will be using PB0, PB1, PB2,PB3
 unsigned char threeLEDs;
 unsigned char blinkingLED;
 
